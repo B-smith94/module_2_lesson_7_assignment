@@ -4,7 +4,7 @@ temperature_in_fahrenheit = input("Temperature in Fahrenheit: ")
 #Task 2
 def temperature_conversion(temperature):
     try:
-        celsius = round(((int(temperature) - 32) * 5/9))
+        celsius = round(((int(temperature) - 32) * 5/9), 2)
     except ValueError:
         print("Error: must input temperature as a whole number.")
 #Task 3        
